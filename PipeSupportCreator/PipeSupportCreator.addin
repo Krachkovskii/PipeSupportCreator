@@ -1,0 +1,11 @@
+﻿<RevitAddIns>
+    <AddIn Type="Application">
+        <Name>PipeSupportCreator</Name>
+        <Assembly>PipeSupportCreator/PipeSupportCreator.dll</Assembly>
+        <AddInId>30CC56E3-D7A4-4817-A7A5-7AA511A51069</AddInId>
+        <FullClassName>PipeSupportCreator.Application</FullClassName>
+        <VendorId>IK</VendorId>
+        <VendorDescription>Ilia Krachkovskii</VendorDescription>
+        <VendorEmail>i.krachkovskii@gmail.com</VendorEmail>
+    </AddIn>
+</RevitAddIns>
