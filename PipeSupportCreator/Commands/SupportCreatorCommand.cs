@@ -16,6 +16,6 @@ public class SupportCreatorCommand : ExternalCommand
         var pipe = new PipeSelectionService().PromptPipeSelection(UiDocument);
         if (pipe is null) return;
 
-        new SupportCreatorService().ExtendPipe(Document, pipe);
+        new SupportCreatorService().CreateSupports(Document, pipe);
     }
 }

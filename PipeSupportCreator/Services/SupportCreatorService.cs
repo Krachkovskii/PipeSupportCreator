@@ -13,7 +13,7 @@ public class SupportCreatorService
     private Document _document = null!;
     private View3D _temporaryView = null!;
     
-    public void ExtendPipe(Document document, Pipe pipe)
+    public void CreateSupports(Document document, Pipe pipe)
     {
         _document = document;
         
